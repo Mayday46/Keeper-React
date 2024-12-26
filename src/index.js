@@ -14,11 +14,13 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import Footer from "./Footer";
+import Note from "./Note";
 
 ReactDOM.render(
     <div>
         <App/>
         <Footer/>
+        <Note/>
     </div>,
     document.getElementById("root")
 );
