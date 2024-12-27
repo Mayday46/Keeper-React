@@ -13,8 +13,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import Footer from "./Footer";
-import Note from "./Note";
+import Footer from "./Component/Footer";
+import Note from "./Component/Note";
 
 ReactDOM.render(
     <div>
