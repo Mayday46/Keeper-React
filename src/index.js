@@ -12,7 +12,7 @@
 //HINT: You will need to study the classes in teh styles.css file to appy styling.
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import App from "./Component/App";
 import Footer from "./Component/Footer";
 import Note from "./Component/Note";
 
