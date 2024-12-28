@@ -13,14 +13,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./Component/App";
-import Footer from "./Component/Footer";
-import Note from "./Component/Note";
 
 ReactDOM.render(
     <div>
         <App/>
-        <Footer/>
-        <Note/>
     </div>,
     document.getElementById("root")
 );
