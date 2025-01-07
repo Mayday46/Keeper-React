@@ -20,10 +20,15 @@ function handleChange(event) {
 
 function submitNote(event) {
     props.onAdd(note);
-    setNote({
-        title: "",
-        content: ""
-    });
+    if (note.title.trim() === "" || note.content.trim() === "") {
+        alert("Please fill out both the title and content fields.");
+        return;
+    } else {
+        setNote({
+            title: "",
+            content: ""
+        });
+    }
     event.preventDefault();
 }
 
