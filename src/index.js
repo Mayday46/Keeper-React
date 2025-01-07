@@ -14,11 +14,18 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./Component/App";
 
-ReactDOM.render(
-    <div>
-        <App/>
-    </div>,
-    document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
 
 // Challenge. Render all the notes inside notes.js as a seperate Note component.
+
+// 1. Implement the add note functionality.
+// - Create a constant that keeps track of the title and content.
+// - Pass the new note back to the App.
+// - Add a new note to the notes array.
+// - Take that array and render seperate Note components for each item.
+
+// 2. Implement the delete note functionality.
+// - Callback from the note component to trigger a delete function.
+// - Use the filter function to filter out the item that needs to be deleted.
+// - Pass the ID of the item that needs to be deleted back to the App.
+
